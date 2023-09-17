@@ -1,4 +1,4 @@
-# TASK #1
+# Challenge #1
 - fork the repository.
 - create a new branch in your forked repository.
 - inside the `students` folder create a new file, filename should be your github username.
