@@ -11,6 +11,9 @@ Some basic linux commands
 
 - **`ls`** -R → List all the content of all the folders inside every folder
 - **`ls --t`** → Sort based onmodified time
+
+### cd command Variation
+
 - **`cd`** → Change Directory to the home and give some parameters
 
 - **`cd ../`** or **`cd ..`** → Takes to the previous directory
