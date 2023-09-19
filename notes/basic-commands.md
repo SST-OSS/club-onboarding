@@ -1,6 +1,6 @@
 # Basic commands
 
-Some base linux commands
+Some basic linux commands
 
 - pwd: Pring working file
 - ls: List all the files and directories in the folder
