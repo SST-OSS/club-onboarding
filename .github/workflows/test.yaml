@@ -1,0 +1,33 @@
+name: Test Java Problems
+
+on:
+  pull_request:
+    paths:
+      - "javaProblems/**"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Set up Java
+        uses: actions/setup-java@v3
+        with:
+          java-version: "11"
+          distribution: "temurin"
+          architecture: x64
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v39
+      - name: Test Solutions
+        run: |
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            if [[ "$file" == javaProblems/* && "$file" == *.java ]]; then
+              folderName=$(awk -F/ '{print $2}' <<< "$file")
+              echo "Running Tests for $folderName"
+              cd "javaProblems/$folderName"
+              javac Test.java
+              java Test
+              cd ../..
+            fi
+          done
