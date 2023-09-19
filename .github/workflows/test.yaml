@@ -1,9 +1,6 @@
 name: Test Java Problems
 
 on:
-  push:
-    paths:
-      - "javaProblems/**"
   pull_request:
     paths:
       - "javaProblems/**"
