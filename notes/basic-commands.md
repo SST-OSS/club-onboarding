@@ -2,7 +2,7 @@
 
 Some base linux commands
 
-- pwd: Pring working file
+- pwd: Print working file
 - ls: List all the files and directories in the folder
 - ls -la: List all the files and directories with permissions and hidden files along with other information
 - cd: change directory
