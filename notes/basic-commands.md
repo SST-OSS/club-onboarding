@@ -9,15 +9,15 @@ Some basic linux commands
 
 ### Variations of ls command
 
-- ls -R → List all the content of all the folders inside every folder
-- ls --t → Sort based onmodified time
-- `cd` → Change Directory to the home and give some parameters
+- **`ls`** -R → List all the content of all the folders inside every folder
+- **`ls --t`** → Sort based onmodified time
+- **`cd`** → Change Directory to the home and give some parameters
 
-- `cd ../` or `cd ..` → Takes to the previous directory
+- **`cd ../`** or **`cd ..`** → Takes to the previous directory
 
-- `cd folder_name` → takes us to the directory
+- **`cd folder_name`** → takes us to the directory
 
-- `cd ~` → Takes to the home directory again
+- **`cd ~`** → Takes to the home directory again
 
 - **`cd directory`** → This form of the **`cd`** command is used to navigate to a specific directory. Replace "directory" with the actual name of the directory you want to navigate to.
 
