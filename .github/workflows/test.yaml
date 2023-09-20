@@ -7,7 +7,7 @@ on:
       - "javaProblems/**"
 jobs:
   build:
-    if: contains(github.event.pull_request.labels.*.name, 'java-problem-solution')
+    if: ${{ github.event.label.name == 'java-problem-solution' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
