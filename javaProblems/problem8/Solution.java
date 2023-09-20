@@ -1,15 +1,20 @@
 public class Solution {
     public boolean solve(int n) {
 
-        double a = n;
-        while(a > 1)
-        {
-            a = a/4;
-        }
-        if(a != 1)
-        {
+        double num = n;
+       if (num <= 0) {
             return false;
         }
-        return true;
+
+        while (num % 4 == 0) {
+            num /= 4;
+        }
+
+        if(num==1){
+            return true;
+    }
+        else{
+            return false;
+}
     }
 }
