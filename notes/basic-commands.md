@@ -1,8 +1,7 @@
 # Basic commands
-
 Some base linux commands
 
-- pwd: Pring working file
+- pwd: Print working file
 - ls: List all the files and directories in the folder
 - ls -la: List all the files and directories with permissions and hidden files along with other information
 - cd: change directory
@@ -11,6 +10,8 @@ Some base linux commands
 
 - ls -R → List all the content of all the folders inside every folder
 - ls --t → Sort based onmodified time
+
+### Variations of cd command
 - `cd` → Change Directory to the home and give some parameters
 
 - `cd ../` or `cd ..` → Takes to the previous directory
