@@ -1,23 +1,19 @@
-import java.util.Scanner;
-
 public class Solution {
-  public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-    int num1 = sc.nextInt();
-    int num2 = sc.nextInt();
-    solve(num1, num2);
-  }
-
-  public static int gcd(int a, int b) {
+  public int gcd(int a, int b) {
     if (b == 0) {
       return a;
     }
     return gcd(b, a % b);
   }
 
-  public static void solve(int a, int b) {
-    int n = gcd(a, b);
-    System.out.println(n);
-    System.out.println((a * b) / n);
+  public int[] solvee(int a, int b) {
+    int[] arr = new int[2];  
+    arr[0] = gcd(a, b);
+    arr[1] = (a * b) / arr[0];
+    return arr;
+  }
+
+  public int[] solve(int num1, int num2) {
+    return solvee(num1, num2);
   }
 }
