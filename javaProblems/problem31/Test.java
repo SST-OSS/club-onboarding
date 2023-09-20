@@ -2,7 +2,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Test {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Logger logger = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
         Solution solveSolution = new Solution();
         int[] ans;
@@ -24,10 +24,11 @@ public class Test {
             throw new Error("Runtime Error");
         }
 
+        // Here implement the logic to compare the answer returned with the actual answers.
         if (gcd != 3 || lcm != 60) {
             logger.log(Level.SEVERE, "Wrong solution!");
+            // If the solution is incorrect, exit with status code 1.
             System.exit(1);
-            throw new RuntimeException("Wrong solution!");
         }
         System.out.print("Testcase passed!");
     }
