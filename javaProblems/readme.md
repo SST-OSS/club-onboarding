@@ -64,13 +64,13 @@ public class Test {
         // For example: To compare strings we have to use the .equals() method rather than just using the equality operator.
         if (ans != actualAns) {
             logger.log(Level.SEVERE, "Wrong solution!");
+            // If the solution is incorrect, exit with status code 1.
             System.exit(1);
         }
         System.out.print("Testcase passed!");
     }
 }
 ```
-
 - Make sure that you create only one question in a PR!
 - And also, don't put the actual solution in the `Solution.java` file only leave the boilerplate so that others can get a chance to solve the question.
 - Open a PR.
