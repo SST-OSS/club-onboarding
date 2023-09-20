@@ -2,10 +2,12 @@ name: Test Java Problems
 
 on:
   pull_request:
+    types: [labeled]
     paths:
       - "javaProblems/**"
 jobs:
   build:
+    if: ${{ github.event.label.name == 'java-problem-solution' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
