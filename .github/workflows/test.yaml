@@ -6,7 +6,7 @@ on:
     paths:
       - "javaProblems/**"
 jobs:
-  build:
+  test-java-solutions:
     if: ${{ github.event.label.name == 'java-problem-solution' }}
     runs-on: ubuntu-latest
     steps:
