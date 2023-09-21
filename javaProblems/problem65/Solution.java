@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     int gcd(int a, int b) {
         for (int i = a; i >= 1; i--) {
