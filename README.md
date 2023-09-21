@@ -10,7 +10,7 @@ This project is designed to provide beginners with a hands-on experience of cont
 To learn about how to making a contribution to this project, please see our [Contributing guide](https://github.com/SST-OSS/club-onboarding/blob/main/CONTRIBUTING.md).
 
 
-## contributors
+## Contributors
 
-![Contributors](https://contrib.rocks/image?repo=PulsatingGenius/club-onboarding)
+![Contributors](https://contrib.rocks/image?repo=SST-OSS/club-onboarding)
 
