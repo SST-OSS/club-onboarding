@@ -12,7 +12,7 @@
 
 ## Adding a new problem
 
-- First get yourself assigned to the issue related to creation of the problem.
+- You must first comment `/take` to claim the issue. Once you have been assigned the issue, you can start working on it.
 - In your forked repository, create a new branched named `java-problem-x`.
 - Read the question carefully.
 - Create a new folder in the `javaProblems` directory with folderName `problemX`.
