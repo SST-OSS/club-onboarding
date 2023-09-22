@@ -1,5 +1,10 @@
 # Basic commands
+<<<<<<< HEAD
 Some base linux commands
+=======
+
+Some basic linux commands
+>>>>>>> 564c83c (Fixed Spelling mistake in basic-commands.md)
 
 - pwd: Print working file
 - ls: List all the files and directories in the folder
