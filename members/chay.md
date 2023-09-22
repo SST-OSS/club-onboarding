@@ -1,2 +1,2 @@
-Name : Naga Chaitanya <br>
+Name : Naga Chaitanya
 Github Handle: Chay2203
