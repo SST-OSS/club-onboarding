@@ -1,5 +1,5 @@
 class Solution {
-    public boolean divisorGame(int n) {
+    public boolean solve(int n) {
         boolean a=false;
         int i=1;
         while(i<n){

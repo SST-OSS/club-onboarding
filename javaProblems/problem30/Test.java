@@ -2,18 +2,30 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Test {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         Logger logger = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
-        Solution solveSolution = new Solution();
-        Boolean ans = solveSolution.divisorGame(3);
-        // Here implement the logic to compare the answer returned with the actual answers.
-        // The logic can be different based on the dataType.
-        // For example: To compare strings we have to use the .equals() method rather than just using the equality operator.
-        if (!ans) {
+        Solution solution = new Solution();
+
+        int test1=2;
+
+        boolean expectedOutput = true;
+       boolean ans = solution.solve(test1);
+
+        if (ans!=expectedOutput) {
             logger.log(Level.SEVERE, "Wrong solution!");
-            // If the solution is incorrect, exit with status code 1.
             System.exit(1);
         }
-        System.out.print("Testcase passed!");
+
+         int test2=3;
+
+         expectedOutput = false;
+        ans = solution.solve(test2);
+
+        if (ans!=expectedOutput) {
+            logger.log(Level.SEVERE, "Wrong solution!");
+            System.exit(1);
+        }
+
+        System.out.print("Testcases passed!");
     }
 }
