@@ -1,7 +1,7 @@
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
-public class ReverseNumberDigitsTest {
+public class Test {
     public void testReverseNumberDigits() {
         assertEquals("Testing with 12345", "5\n4\n3\n2\n1\n", getReversedDigitsOutput(12345));
         assertEquals("Testing with 987654321", "1\n2\n3\n4\n5\n6\n7\n8\n9\n", getReversedDigitsOutput(987654321));
