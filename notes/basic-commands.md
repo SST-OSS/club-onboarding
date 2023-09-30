@@ -14,7 +14,7 @@ Some basic linux commands
 ### Variations of ls command
 
 - `ls -R` → List all the content of all the folders inside every folder
-- `ls -t` → List all content of a directory after sorting then based on modified time
+- `ls -t` → List all content of a directory after sorting them based on modified time
 
 ### Variations of cd command
 - `cd` → Change current Directory to the home directory
