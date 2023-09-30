@@ -8,9 +8,9 @@ _The "chmod" command allows you to modify the read, write, and execute permissio
 
 **Options:**
 
-- **`g`**: User/Owner
-- **`o`**: Group
-- **`u`**: Others (everyone else)
+- **`u`**: User/Owner
+- **`g`**: Group
+- **`o`**: Others (everyone else)
 - **`a`**: All (equivalent to u+g+o)
 - **`+`**: Add the specified permissions
 - `-`: Remove the specified permissions
@@ -25,10 +25,10 @@ _The "chmod" command allows you to modify the read, write, and execute permissio
 The numeric values for permissions are as follows:
 
 - **`0`**: No permission (---)
-- **`4`**: Execute permission (--x)
-- **`1`**: Write permission (-w-)
+- **`1`**: Execute permission (--x)
+- **`2`**: Write permission (-w-)
 - **`3`**: Write and execute permissions (-wx)
-- **`2`**: Read permission (r--)
+- **`4`**: Read permission (r--)
 - **`5`**: Read and execute permissions (r-x)
 - **`6`**: Read and write permissions (rw-)
 - **`7`**: Read, write, and execute permissions (rwx)
