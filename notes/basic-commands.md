@@ -1,6 +1,6 @@
 # Basic commands
 <<<<<<< HEAD
-Some base linux commands
+Some basic linux commands
 =======
 
 Some basic linux commands
